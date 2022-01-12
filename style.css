@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+
+canvas{
+    border: 1px dashed black;
+    animation-name: canvas_blender;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas_blender{
+    from{box-shadow: 1px 1px 55px blueviolet;}
+    to{box-shadow: 1px 1px 55px dodgerblue;}
+}
+
+.btn-success:hover{
+    background-color: slategrey;
+}
